@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\inistanley\AppData\Local\Temp\testng-eclipse-82616630\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">35 methods,   35 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName" hash-for-method="getResponseBody(q, New York, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather...)">getResponseBody(q, New York, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName" hash-for-method="getResponseBody(q, Toronto, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather,...)">getResponseBody(q, Toronto, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName" hash-for-method="getResponseBody(q, Moscow, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather, ...)">getResponseBody(q, Moscow, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName" hash-for-method="getResponseBody(q, Sydney, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather, ...)">getResponseBody(q, Sydney, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName" hash-for-method="getResponseBody(q, Bengaluru, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weathe...)">getResponseBody(q, Bengaluru, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weathe...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName" hash-for-method="getResponseBody(q, London, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather, ...)">getResponseBody(q, London, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName" hash-for-method="getResponseBody(q, Beijing, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather,...)">getResponseBody(q, Beijing, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName" hash-for-method="getResponseContentType(http://api.openweathermap.org/data/2.5/weather?q=London&amp;appid=e0115400bd2deb85547cd85f2a858c5a, Lond...)">getResponseContentType(http://api.openweathermap.org/data/2.5/weather?q=London&appid=e0115400bd2deb85547cd85f2a858c5a, Lond...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName" hash-for-method="getResponseContentType(http://api.openweathermap.org/data/2.5/weather?q=Sydney&amp;appid=e0115400bd2deb85547cd85f2a858c5a, Sydn...)">getResponseContentType(http://api.openweathermap.org/data/2.5/weather?q=Sydney&appid=e0115400bd2deb85547cd85f2a858c5a, Sydn...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName" hash-for-method="getResponseContentType(http://api.openweathermap.org/data/2.5/weather?q=Bengaluru&amp;appid=e0115400bd2deb85547cd85f2a858c5a, B...)">getResponseContentType(http://api.openweathermap.org/data/2.5/weather?q=Bengaluru&appid=e0115400bd2deb85547cd85f2a858c5a, B...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName" hash-for-method="getResponseContentType(http://api.openweathermap.org/data/2.5/weather?q=Moscow&amp;appid=e0115400bd2deb85547cd85f2a858c5a, Mosc...)">getResponseContentType(http://api.openweathermap.org/data/2.5/weather?q=Moscow&appid=e0115400bd2deb85547cd85f2a858c5a, Mosc...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName" hash-for-method="getResponseContentType(http://api.openweathermap.org/data/2.5/weather?q=New York&amp;appid=e0115400bd2deb85547cd85f2a858c5a, Ne...)">getResponseContentType(http://api.openweathermap.org/data/2.5/weather?q=New York&appid=e0115400bd2deb85547cd85f2a858c5a, Ne...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName" hash-for-method="getResponseContentType(http://api.openweathermap.org/data/2.5/weather?q=Beijing&amp;appid=e0115400bd2deb85547cd85f2a858c5a, Bei...)">getResponseContentType(http://api.openweathermap.org/data/2.5/weather?q=Beijing&appid=e0115400bd2deb85547cd85f2a858c5a, Bei...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName" hash-for-method="getResponseContentType(http://api.openweathermap.org/data/2.5/weather?q=Toronto&amp;appid=e0115400bd2deb85547cd85f2a858c5a, Tor...)">getResponseContentType(http://api.openweathermap.org/data/2.5/weather?q=Toronto&appid=e0115400bd2deb85547cd85f2a858c5a, Tor...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName" hash-for-method="getResponseHeaders(http://api.openweathermap.org/data/2.5/weather?q=Toronto&amp;appid=e0115400bd2deb85547cd85f2a858c5a, X-C...)">getResponseHeaders(http://api.openweathermap.org/data/2.5/weather?q=Toronto&appid=e0115400bd2deb85547cd85f2a858c5a, X-C...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName" hash-for-method="getResponseHeaders(http://api.openweathermap.org/data/2.5/weather?q=Bengaluru&amp;appid=e0115400bd2deb85547cd85f2a858c5a, X...)">getResponseHeaders(http://api.openweathermap.org/data/2.5/weather?q=Bengaluru&appid=e0115400bd2deb85547cd85f2a858c5a, X...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName" hash-for-method="getResponseHeaders(http://api.openweathermap.org/data/2.5/weather?q=Beijing&amp;appid=e0115400bd2deb85547cd85f2a858c5a, X-C...)">getResponseHeaders(http://api.openweathermap.org/data/2.5/weather?q=Beijing&appid=e0115400bd2deb85547cd85f2a858c5a, X-C...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName" hash-for-method="getResponseHeaders(http://api.openweathermap.org/data/2.5/weather?q=London&amp;appid=e0115400bd2deb85547cd85f2a858c5a, X-Ca...)">getResponseHeaders(http://api.openweathermap.org/data/2.5/weather?q=London&appid=e0115400bd2deb85547cd85f2a858c5a, X-Ca...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName" hash-for-method="getResponseHeaders(http://api.openweathermap.org/data/2.5/weather?q=Sydney&amp;appid=e0115400bd2deb85547cd85f2a858c5a, X-Ca...)">getResponseHeaders(http://api.openweathermap.org/data/2.5/weather?q=Sydney&appid=e0115400bd2deb85547cd85f2a858c5a, X-Ca...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName" hash-for-method="getResponseHeaders(http://api.openweathermap.org/data/2.5/weather?q=Moscow&amp;appid=e0115400bd2deb85547cd85f2a858c5a, X-Ca...)">getResponseHeaders(http://api.openweathermap.org/data/2.5/weather?q=Moscow&appid=e0115400bd2deb85547cd85f2a858c5a, X-Ca...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName" hash-for-method="getResponseHeaders(http://api.openweathermap.org/data/2.5/weather?q=New York&amp;appid=e0115400bd2deb85547cd85f2a858c5a, X-...)">getResponseHeaders(http://api.openweathermap.org/data/2.5/weather?q=New York&appid=e0115400bd2deb85547cd85f2a858c5a, X-...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName" hash-for-method="getResponseStatus(q, Sydney, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather)">getResponseStatus(q, Sydney, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName" hash-for-method="getResponseStatus(q, Beijing, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather)">getResponseStatus(q, Beijing, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName" hash-for-method="getResponseStatus(q, Bengaluru, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weathe...)">getResponseStatus(q, Bengaluru, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weathe...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName" hash-for-method="getResponseStatus(q, Toronto, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather)">getResponseStatus(q, Toronto, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName" hash-for-method="getResponseStatus(q, London, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather)">getResponseStatus(q, London, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName" hash-for-method="getResponseStatus(q, Moscow, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather)">getResponseStatus(q, Moscow, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName" hash-for-method="getResponseStatus(q, New York, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather)">getResponseStatus(q, New York, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName" hash-for-method="getResponseTime(http://api.openweathermap.org/data/2.5/weather?q=Bengaluru&amp;appid=e0115400bd2deb85547cd85f2a858c5a, B...)">getResponseTime(http://api.openweathermap.org/data/2.5/weather?q=Bengaluru&appid=e0115400bd2deb85547cd85f2a858c5a, B...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName" hash-for-method="getResponseTime(http://api.openweathermap.org/data/2.5/weather?q=New York&amp;appid=e0115400bd2deb85547cd85f2a858c5a, Ne...)">getResponseTime(http://api.openweathermap.org/data/2.5/weather?q=New York&appid=e0115400bd2deb85547cd85f2a858c5a, Ne...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName" hash-for-method="getResponseTime(http://api.openweathermap.org/data/2.5/weather?q=Beijing&amp;appid=e0115400bd2deb85547cd85f2a858c5a, Bei...)">getResponseTime(http://api.openweathermap.org/data/2.5/weather?q=Beijing&appid=e0115400bd2deb85547cd85f2a858c5a, Bei...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName" hash-for-method="getResponseTime(http://api.openweathermap.org/data/2.5/weather?q=London&amp;appid=e0115400bd2deb85547cd85f2a858c5a, Lond...)">getResponseTime(http://api.openweathermap.org/data/2.5/weather?q=London&appid=e0115400bd2deb85547cd85f2a858c5a, Lond...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName" hash-for-method="getResponseTime(http://api.openweathermap.org/data/2.5/weather?q=Sydney&amp;appid=e0115400bd2deb85547cd85f2a858c5a, Sydn...)">getResponseTime(http://api.openweathermap.org/data/2.5/weather?q=Sydney&appid=e0115400bd2deb85547cd85f2a858c5a, Sydn...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName" hash-for-method="getResponseTime(http://api.openweathermap.org/data/2.5/weather?q=Moscow&amp;appid=e0115400bd2deb85547cd85f2a858c5a, Mosc...)">getResponseTime(http://api.openweathermap.org/data/2.5/weather?q=Moscow&appid=e0115400bd2deb85547cd85f2a858c5a, Mosc...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName" hash-for-method="getResponseTime(http://api.openweathermap.org/data/2.5/weather?q=Toronto&amp;appid=e0115400bd2deb85547cd85f2a858c5a, Tor...)">getResponseTime(http://api.openweathermap.org/data/2.5/weather?q=Toronto&appid=e0115400bd2deb85547cd85f2a858c5a, Tor...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getResponseBody(q, New York, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather...)">
+                  </a> <!-- getResponseBody(q, New York, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather...) -->
+                  <span class="method-name">getResponseBody</span>
+                  <span class="parameters">(q, New York, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather, New York, US)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getResponseBody(q, Toronto, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather,...)">
+                  </a> <!-- getResponseBody(q, Toronto, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather,...) -->
+                  <span class="method-name">getResponseBody</span>
+                  <span class="parameters">(q, Toronto, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather, Toronto, CA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getResponseBody(q, Moscow, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather, ...)">
+                  </a> <!-- getResponseBody(q, Moscow, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather, ...) -->
+                  <span class="method-name">getResponseBody</span>
+                  <span class="parameters">(q, Moscow, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather, Moscow, RU)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getResponseBody(q, Sydney, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather, ...)">
+                  </a> <!-- getResponseBody(q, Sydney, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather, ...) -->
+                  <span class="method-name">getResponseBody</span>
+                  <span class="parameters">(q, Sydney, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather, Sydney, AU)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getResponseBody(q, Bengaluru, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weathe...)">
+                  </a> <!-- getResponseBody(q, Bengaluru, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weathe...) -->
+                  <span class="method-name">getResponseBody</span>
+                  <span class="parameters">(q, Bengaluru, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather, Bengaluru, IN)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getResponseBody(q, London, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather, ...)">
+                  </a> <!-- getResponseBody(q, London, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather, ...) -->
+                  <span class="method-name">getResponseBody</span>
+                  <span class="parameters">(q, London, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather, London, GB)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getResponseBody(q, Beijing, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather,...)">
+                  </a> <!-- getResponseBody(q, Beijing, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather,...) -->
+                  <span class="method-name">getResponseBody</span>
+                  <span class="parameters">(q, Beijing, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather, Beijing, CN)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getResponseContentType(http://api.openweathermap.org/data/2.5/weather?q=London&amp;appid=e0115400bd2deb85547cd85f2a858c5a, Lond...)">
+                  </a> <!-- getResponseContentType(http://api.openweathermap.org/data/2.5/weather?q=London&appid=e0115400bd2deb85547cd85f2a858c5a, Lond...) -->
+                  <span class="method-name">getResponseContentType</span>
+                  <span class="parameters">(http://api.openweathermap.org/data/2.5/weather?q=London&appid=e0115400bd2deb85547cd85f2a858c5a, London)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getResponseContentType(http://api.openweathermap.org/data/2.5/weather?q=Sydney&amp;appid=e0115400bd2deb85547cd85f2a858c5a, Sydn...)">
+                  </a> <!-- getResponseContentType(http://api.openweathermap.org/data/2.5/weather?q=Sydney&appid=e0115400bd2deb85547cd85f2a858c5a, Sydn...) -->
+                  <span class="method-name">getResponseContentType</span>
+                  <span class="parameters">(http://api.openweathermap.org/data/2.5/weather?q=Sydney&appid=e0115400bd2deb85547cd85f2a858c5a, Sydney)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getResponseContentType(http://api.openweathermap.org/data/2.5/weather?q=Bengaluru&amp;appid=e0115400bd2deb85547cd85f2a858c5a, B...)">
+                  </a> <!-- getResponseContentType(http://api.openweathermap.org/data/2.5/weather?q=Bengaluru&appid=e0115400bd2deb85547cd85f2a858c5a, B...) -->
+                  <span class="method-name">getResponseContentType</span>
+                  <span class="parameters">(http://api.openweathermap.org/data/2.5/weather?q=Bengaluru&appid=e0115400bd2deb85547cd85f2a858c5a, Bengaluru)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getResponseContentType(http://api.openweathermap.org/data/2.5/weather?q=Moscow&amp;appid=e0115400bd2deb85547cd85f2a858c5a, Mosc...)">
+                  </a> <!-- getResponseContentType(http://api.openweathermap.org/data/2.5/weather?q=Moscow&appid=e0115400bd2deb85547cd85f2a858c5a, Mosc...) -->
+                  <span class="method-name">getResponseContentType</span>
+                  <span class="parameters">(http://api.openweathermap.org/data/2.5/weather?q=Moscow&appid=e0115400bd2deb85547cd85f2a858c5a, Moscow)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getResponseContentType(http://api.openweathermap.org/data/2.5/weather?q=New York&amp;appid=e0115400bd2deb85547cd85f2a858c5a, Ne...)">
+                  </a> <!-- getResponseContentType(http://api.openweathermap.org/data/2.5/weather?q=New York&appid=e0115400bd2deb85547cd85f2a858c5a, Ne...) -->
+                  <span class="method-name">getResponseContentType</span>
+                  <span class="parameters">(http://api.openweathermap.org/data/2.5/weather?q=New York&appid=e0115400bd2deb85547cd85f2a858c5a, New York)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getResponseContentType(http://api.openweathermap.org/data/2.5/weather?q=Beijing&amp;appid=e0115400bd2deb85547cd85f2a858c5a, Bei...)">
+                  </a> <!-- getResponseContentType(http://api.openweathermap.org/data/2.5/weather?q=Beijing&appid=e0115400bd2deb85547cd85f2a858c5a, Bei...) -->
+                  <span class="method-name">getResponseContentType</span>
+                  <span class="parameters">(http://api.openweathermap.org/data/2.5/weather?q=Beijing&appid=e0115400bd2deb85547cd85f2a858c5a, Beijing)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getResponseContentType(http://api.openweathermap.org/data/2.5/weather?q=Toronto&amp;appid=e0115400bd2deb85547cd85f2a858c5a, Tor...)">
+                  </a> <!-- getResponseContentType(http://api.openweathermap.org/data/2.5/weather?q=Toronto&appid=e0115400bd2deb85547cd85f2a858c5a, Tor...) -->
+                  <span class="method-name">getResponseContentType</span>
+                  <span class="parameters">(http://api.openweathermap.org/data/2.5/weather?q=Toronto&appid=e0115400bd2deb85547cd85f2a858c5a, Toronto)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getResponseHeaders(http://api.openweathermap.org/data/2.5/weather?q=Toronto&amp;appid=e0115400bd2deb85547cd85f2a858c5a, X-C...)">
+                  </a> <!-- getResponseHeaders(http://api.openweathermap.org/data/2.5/weather?q=Toronto&appid=e0115400bd2deb85547cd85f2a858c5a, X-C...) -->
+                  <span class="method-name">getResponseHeaders</span>
+                  <span class="parameters">(http://api.openweathermap.org/data/2.5/weather?q=Toronto&appid=e0115400bd2deb85547cd85f2a858c5a, X-Cache-Key, /data/2.5/weather?q=toronto, Toronto)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getResponseHeaders(http://api.openweathermap.org/data/2.5/weather?q=Bengaluru&amp;appid=e0115400bd2deb85547cd85f2a858c5a, X...)">
+                  </a> <!-- getResponseHeaders(http://api.openweathermap.org/data/2.5/weather?q=Bengaluru&appid=e0115400bd2deb85547cd85f2a858c5a, X...) -->
+                  <span class="method-name">getResponseHeaders</span>
+                  <span class="parameters">(http://api.openweathermap.org/data/2.5/weather?q=Bengaluru&appid=e0115400bd2deb85547cd85f2a858c5a, X-Cache-Key, /data/2.5/weather?q=bengaluru, Bengaluru)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getResponseHeaders(http://api.openweathermap.org/data/2.5/weather?q=Beijing&amp;appid=e0115400bd2deb85547cd85f2a858c5a, X-C...)">
+                  </a> <!-- getResponseHeaders(http://api.openweathermap.org/data/2.5/weather?q=Beijing&appid=e0115400bd2deb85547cd85f2a858c5a, X-C...) -->
+                  <span class="method-name">getResponseHeaders</span>
+                  <span class="parameters">(http://api.openweathermap.org/data/2.5/weather?q=Beijing&appid=e0115400bd2deb85547cd85f2a858c5a, X-Cache-Key, /data/2.5/weather?q=beijing, Beijing)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getResponseHeaders(http://api.openweathermap.org/data/2.5/weather?q=London&amp;appid=e0115400bd2deb85547cd85f2a858c5a, X-Ca...)">
+                  </a> <!-- getResponseHeaders(http://api.openweathermap.org/data/2.5/weather?q=London&appid=e0115400bd2deb85547cd85f2a858c5a, X-Ca...) -->
+                  <span class="method-name">getResponseHeaders</span>
+                  <span class="parameters">(http://api.openweathermap.org/data/2.5/weather?q=London&appid=e0115400bd2deb85547cd85f2a858c5a, X-Cache-Key, /data/2.5/weather?q=london, London)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getResponseHeaders(http://api.openweathermap.org/data/2.5/weather?q=Sydney&amp;appid=e0115400bd2deb85547cd85f2a858c5a, X-Ca...)">
+                  </a> <!-- getResponseHeaders(http://api.openweathermap.org/data/2.5/weather?q=Sydney&appid=e0115400bd2deb85547cd85f2a858c5a, X-Ca...) -->
+                  <span class="method-name">getResponseHeaders</span>
+                  <span class="parameters">(http://api.openweathermap.org/data/2.5/weather?q=Sydney&appid=e0115400bd2deb85547cd85f2a858c5a, X-Cache-Key, /data/2.5/weather?q=sydney, Sydney)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getResponseHeaders(http://api.openweathermap.org/data/2.5/weather?q=Moscow&amp;appid=e0115400bd2deb85547cd85f2a858c5a, X-Ca...)">
+                  </a> <!-- getResponseHeaders(http://api.openweathermap.org/data/2.5/weather?q=Moscow&appid=e0115400bd2deb85547cd85f2a858c5a, X-Ca...) -->
+                  <span class="method-name">getResponseHeaders</span>
+                  <span class="parameters">(http://api.openweathermap.org/data/2.5/weather?q=Moscow&appid=e0115400bd2deb85547cd85f2a858c5a, X-Cache-Key, /data/2.5/weather?q=moscow, Moscow)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getResponseHeaders(http://api.openweathermap.org/data/2.5/weather?q=New York&amp;appid=e0115400bd2deb85547cd85f2a858c5a, X-...)">
+                  </a> <!-- getResponseHeaders(http://api.openweathermap.org/data/2.5/weather?q=New York&appid=e0115400bd2deb85547cd85f2a858c5a, X-...) -->
+                  <span class="method-name">getResponseHeaders</span>
+                  <span class="parameters">(http://api.openweathermap.org/data/2.5/weather?q=New York&appid=e0115400bd2deb85547cd85f2a858c5a, X-Cache-Key, /data/2.5/weather?q=new%20york, New York)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getResponseStatus(q, Sydney, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather)">
+                  </a> <!-- getResponseStatus(q, Sydney, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather) -->
+                  <span class="method-name">getResponseStatus</span>
+                  <span class="parameters">(q, Sydney, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getResponseStatus(q, Beijing, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather)">
+                  </a> <!-- getResponseStatus(q, Beijing, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather) -->
+                  <span class="method-name">getResponseStatus</span>
+                  <span class="parameters">(q, Beijing, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getResponseStatus(q, Bengaluru, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weathe...)">
+                  </a> <!-- getResponseStatus(q, Bengaluru, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weathe...) -->
+                  <span class="method-name">getResponseStatus</span>
+                  <span class="parameters">(q, Bengaluru, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getResponseStatus(q, Toronto, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather)">
+                  </a> <!-- getResponseStatus(q, Toronto, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather) -->
+                  <span class="method-name">getResponseStatus</span>
+                  <span class="parameters">(q, Toronto, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getResponseStatus(q, London, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather)">
+                  </a> <!-- getResponseStatus(q, London, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather) -->
+                  <span class="method-name">getResponseStatus</span>
+                  <span class="parameters">(q, London, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getResponseStatus(q, Moscow, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather)">
+                  </a> <!-- getResponseStatus(q, Moscow, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather) -->
+                  <span class="method-name">getResponseStatus</span>
+                  <span class="parameters">(q, Moscow, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getResponseStatus(q, New York, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather)">
+                  </a> <!-- getResponseStatus(q, New York, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather) -->
+                  <span class="method-name">getResponseStatus</span>
+                  <span class="parameters">(q, New York, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getResponseTime(http://api.openweathermap.org/data/2.5/weather?q=Bengaluru&amp;appid=e0115400bd2deb85547cd85f2a858c5a, B...)">
+                  </a> <!-- getResponseTime(http://api.openweathermap.org/data/2.5/weather?q=Bengaluru&appid=e0115400bd2deb85547cd85f2a858c5a, B...) -->
+                  <span class="method-name">getResponseTime</span>
+                  <span class="parameters">(http://api.openweathermap.org/data/2.5/weather?q=Bengaluru&appid=e0115400bd2deb85547cd85f2a858c5a, Bengaluru)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getResponseTime(http://api.openweathermap.org/data/2.5/weather?q=New York&amp;appid=e0115400bd2deb85547cd85f2a858c5a, Ne...)">
+                  </a> <!-- getResponseTime(http://api.openweathermap.org/data/2.5/weather?q=New York&appid=e0115400bd2deb85547cd85f2a858c5a, Ne...) -->
+                  <span class="method-name">getResponseTime</span>
+                  <span class="parameters">(http://api.openweathermap.org/data/2.5/weather?q=New York&appid=e0115400bd2deb85547cd85f2a858c5a, New York)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getResponseTime(http://api.openweathermap.org/data/2.5/weather?q=Beijing&amp;appid=e0115400bd2deb85547cd85f2a858c5a, Bei...)">
+                  </a> <!-- getResponseTime(http://api.openweathermap.org/data/2.5/weather?q=Beijing&appid=e0115400bd2deb85547cd85f2a858c5a, Bei...) -->
+                  <span class="method-name">getResponseTime</span>
+                  <span class="parameters">(http://api.openweathermap.org/data/2.5/weather?q=Beijing&appid=e0115400bd2deb85547cd85f2a858c5a, Beijing)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getResponseTime(http://api.openweathermap.org/data/2.5/weather?q=London&amp;appid=e0115400bd2deb85547cd85f2a858c5a, Lond...)">
+                  </a> <!-- getResponseTime(http://api.openweathermap.org/data/2.5/weather?q=London&appid=e0115400bd2deb85547cd85f2a858c5a, Lond...) -->
+                  <span class="method-name">getResponseTime</span>
+                  <span class="parameters">(http://api.openweathermap.org/data/2.5/weather?q=London&appid=e0115400bd2deb85547cd85f2a858c5a, London)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getResponseTime(http://api.openweathermap.org/data/2.5/weather?q=Sydney&amp;appid=e0115400bd2deb85547cd85f2a858c5a, Sydn...)">
+                  </a> <!-- getResponseTime(http://api.openweathermap.org/data/2.5/weather?q=Sydney&appid=e0115400bd2deb85547cd85f2a858c5a, Sydn...) -->
+                  <span class="method-name">getResponseTime</span>
+                  <span class="parameters">(http://api.openweathermap.org/data/2.5/weather?q=Sydney&appid=e0115400bd2deb85547cd85f2a858c5a, Sydney)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getResponseTime(http://api.openweathermap.org/data/2.5/weather?q=Moscow&amp;appid=e0115400bd2deb85547cd85f2a858c5a, Mosc...)">
+                  </a> <!-- getResponseTime(http://api.openweathermap.org/data/2.5/weather?q=Moscow&appid=e0115400bd2deb85547cd85f2a858c5a, Mosc...) -->
+                  <span class="method-name">getResponseTime</span>
+                  <span class="parameters">(http://api.openweathermap.org/data/2.5/weather?q=Moscow&appid=e0115400bd2deb85547cd85f2a858c5a, Moscow)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getResponseTime(http://api.openweathermap.org/data/2.5/weather?q=Toronto&amp;appid=e0115400bd2deb85547cd85f2a858c5a, Tor...)">
+                  </a> <!-- getResponseTime(http://api.openweathermap.org/data/2.5/weather?q=Toronto&appid=e0115400bd2deb85547cd85f2a858c5a, Tor...) -->
+                  <span class="method-name">getResponseTime</span>
+                  <span class="parameters">(http://api.openweathermap.org/data/2.5/weather?q=Toronto&appid=e0115400bd2deb85547cd85f2a858c5a, Toronto)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\inistanley\AppData\Local\Temp\testng-eclipse-82616630\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(35);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'getResponseBody')
+data.setCell(0, 2, 'com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName')
+data.setCell(0, 3, 25373);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'getResponseHeaders')
+data.setCell(1, 2, 'com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName')
+data.setCell(1, 3, 350);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'getResponseStatus')
+data.setCell(2, 2, 'com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName')
+data.setCell(2, 3, 310);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'getResponseBody')
+data.setCell(3, 2, 'com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName')
+data.setCell(3, 3, 278);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'getResponseContentType')
+data.setCell(4, 2, 'com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName')
+data.setCell(4, 3, 252);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'getResponseBody')
+data.setCell(5, 2, 'com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName')
+data.setCell(5, 3, 243);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'getResponseBody')
+data.setCell(6, 2, 'com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName')
+data.setCell(6, 3, 235);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'getResponseHeaders')
+data.setCell(7, 2, 'com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName')
+data.setCell(7, 3, 227);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'getResponseStatus')
+data.setCell(8, 2, 'com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName')
+data.setCell(8, 3, 224);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'getResponseHeaders')
+data.setCell(9, 2, 'com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName')
+data.setCell(9, 3, 222);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'getResponseHeaders')
+data.setCell(10, 2, 'com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName')
+data.setCell(10, 3, 220);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'getResponseHeaders')
+data.setCell(11, 2, 'com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName')
+data.setCell(11, 3, 218);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'getResponseStatus')
+data.setCell(12, 2, 'com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName')
+data.setCell(12, 3, 217);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'getResponseBody')
+data.setCell(13, 2, 'com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName')
+data.setCell(13, 3, 214);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'getResponseStatus')
+data.setCell(14, 2, 'com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName')
+data.setCell(14, 3, 214);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'getResponseContentType')
+data.setCell(15, 2, 'com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName')
+data.setCell(15, 3, 214);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'getResponseStatus')
+data.setCell(16, 2, 'com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName')
+data.setCell(16, 3, 211);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'getResponseBody')
+data.setCell(17, 2, 'com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName')
+data.setCell(17, 3, 211);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'getResponseContentType')
+data.setCell(18, 2, 'com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName')
+data.setCell(18, 3, 210);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'getResponseHeaders')
+data.setCell(19, 2, 'com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName')
+data.setCell(19, 3, 208);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'getResponseContentType')
+data.setCell(20, 2, 'com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName')
+data.setCell(20, 3, 208);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'getResponseBody')
+data.setCell(21, 2, 'com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName')
+data.setCell(21, 3, 206);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'getResponseContentType')
+data.setCell(22, 2, 'com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName')
+data.setCell(22, 3, 206);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'getResponseStatus')
+data.setCell(23, 2, 'com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName')
+data.setCell(23, 3, 200);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'getResponseStatus')
+data.setCell(24, 2, 'com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName')
+data.setCell(24, 3, 196);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'getResponseContentType')
+data.setCell(25, 2, 'com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName')
+data.setCell(25, 3, 195);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'getResponseHeaders')
+data.setCell(26, 2, 'com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName')
+data.setCell(26, 3, 194);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'getResponseContentType')
+data.setCell(27, 2, 'com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName')
+data.setCell(27, 3, 186);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'getResponseTime')
+data.setCell(28, 2, 'com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName')
+data.setCell(28, 3, 108);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'getResponseTime')
+data.setCell(29, 2, 'com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName')
+data.setCell(29, 3, 107);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'getResponseTime')
+data.setCell(30, 2, 'com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName')
+data.setCell(30, 3, 106);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'getResponseTime')
+data.setCell(31, 2, 'com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName')
+data.setCell(31, 3, 105);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'getResponseTime')
+data.setCell(32, 2, 'com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName')
+data.setCell(32, 3, 101);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'getResponseTime')
+data.setCell(33, 2, 'com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName')
+data.setCell(33, 3, 101);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'getResponseTime')
+data.setCell(34, 2, 'com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName')
+data.setCell(34, 3, 96);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 32 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getResponseBody(q, London, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather, ...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getResponseBody(q, Bengaluru, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weathe...)</span>
+                <span class="method-start">25380 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getResponseBody(q, Toronto, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather,...)</span>
+                <span class="method-start">25618 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getResponseBody(q, New York, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather...)</span>
+                <span class="method-start">25864 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getResponseBody(q, Sydney, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather, ...)</span>
+                <span class="method-start">26144 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getResponseBody(q, Moscow, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather, ...)</span>
+                <span class="method-start">26359 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getResponseBody(q, Beijing, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather,...)</span>
+                <span class="method-start">26566 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getResponseStatus(q, London, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather)</span>
+                <span class="method-start">26781 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getResponseStatus(q, Bengaluru, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weathe...)</span>
+                <span class="method-start">27101 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getResponseStatus(q, Toronto, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather)</span>
+                <span class="method-start">27328 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getResponseStatus(q, New York, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather)</span>
+                <span class="method-start">27540 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getResponseStatus(q, Sydney, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather)</span>
+                <span class="method-start">27737 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getResponseStatus(q, Moscow, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather)</span>
+                <span class="method-start">27938 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getResponseStatus(q, Beijing, appid, e0115400bd2deb85547cd85f2a858c5a, http://api.openweathermap.org/data/2.5/weather)</span>
+                <span class="method-start">28153 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getResponseHeaders(http://api.openweathermap.org/data/2.5/weather?q=London&appid=e0115400bd2deb85547cd85f2a858c5a, X-Ca...)</span>
+                <span class="method-start">28384 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getResponseHeaders(http://api.openweathermap.org/data/2.5/weather?q=Bengaluru&appid=e0115400bd2deb85547cd85f2a858c5a, X...)</span>
+                <span class="method-start">28734 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getResponseHeaders(http://api.openweathermap.org/data/2.5/weather?q=Toronto&appid=e0115400bd2deb85547cd85f2a858c5a, X-C...)</span>
+                <span class="method-start">28945 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getResponseHeaders(http://api.openweathermap.org/data/2.5/weather?q=New York&appid=e0115400bd2deb85547cd85f2a858c5a, X-...)</span>
+                <span class="method-start">29175 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getResponseHeaders(http://api.openweathermap.org/data/2.5/weather?q=Sydney&appid=e0115400bd2deb85547cd85f2a858c5a, X-Ca...)</span>
+                <span class="method-start">29395 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getResponseHeaders(http://api.openweathermap.org/data/2.5/weather?q=Moscow&appid=e0115400bd2deb85547cd85f2a858c5a, X-Ca...)</span>
+                <span class="method-start">29616 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getResponseHeaders(http://api.openweathermap.org/data/2.5/weather?q=Beijing&appid=e0115400bd2deb85547cd85f2a858c5a, X-C...)</span>
+                <span class="method-start">29839 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getResponseTime(http://api.openweathermap.org/data/2.5/weather?q=London&appid=e0115400bd2deb85547cd85f2a858c5a, Lond...)</span>
+                <span class="method-start">30034 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getResponseTime(http://api.openweathermap.org/data/2.5/weather?q=Bengaluru&appid=e0115400bd2deb85547cd85f2a858c5a, B...)</span>
+                <span class="method-start">30142 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getResponseTime(http://api.openweathermap.org/data/2.5/weather?q=Toronto&appid=e0115400bd2deb85547cd85f2a858c5a, Tor...)</span>
+                <span class="method-start">30249 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getResponseTime(http://api.openweathermap.org/data/2.5/weather?q=New York&appid=e0115400bd2deb85547cd85f2a858c5a, Ne...)</span>
+                <span class="method-start">30359 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getResponseTime(http://api.openweathermap.org/data/2.5/weather?q=Sydney&appid=e0115400bd2deb85547cd85f2a858c5a, Sydn...)</span>
+                <span class="method-start">30468 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getResponseTime(http://api.openweathermap.org/data/2.5/weather?q=Moscow&appid=e0115400bd2deb85547cd85f2a858c5a, Mosc...)</span>
+                <span class="method-start">30565 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getResponseTime(http://api.openweathermap.org/data/2.5/weather?q=Beijing&appid=e0115400bd2deb85547cd85f2a858c5a, Bei...)</span>
+                <span class="method-start">30668 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getResponseContentType(http://api.openweathermap.org/data/2.5/weather?q=London&appid=e0115400bd2deb85547cd85f2a858c5a, Lond...)</span>
+                <span class="method-start">30771 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getResponseContentType(http://api.openweathermap.org/data/2.5/weather?q=Bengaluru&appid=e0115400bd2deb85547cd85f2a858c5a, B...)</span>
+                <span class="method-start">31024 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getResponseContentType(http://api.openweathermap.org/data/2.5/weather?q=Toronto&appid=e0115400bd2deb85547cd85f2a858c5a, Tor...)</span>
+                <span class="method-start">31234 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getResponseContentType(http://api.openweathermap.org/data/2.5/weather?q=New York&appid=e0115400bd2deb85547cd85f2a858c5a, Ne...)</span>
+                <span class="method-start">31444 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getResponseContentType(http://api.openweathermap.org/data/2.5/weather?q=Sydney&appid=e0115400bd2deb85547cd85f2a858c5a, Sydn...)</span>
+                <span class="method-start">31651 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getResponseContentType(http://api.openweathermap.org/data/2.5/weather?q=Moscow&appid=e0115400bd2deb85547cd85f2a858c5a, Mosc...)</span>
+                <span class="method-start">31847 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getResponseContentType(http://api.openweathermap.org/data/2.5/weather?q=Beijing&appid=e0115400bd2deb85547cd85f2a858c5a, Bei...)</span>
+                <span class="method-start">32062 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

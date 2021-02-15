@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="35" passed="35">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="32298" started-at="2021-02-15T15:51:54Z" finished-at="2021-02-15T15:52:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="32298" started-at="2021-02-15T15:51:54Z" finished-at="2021-02-15T15:52:26Z">
+      <class name="com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName">
+        <test-method status="PASS" signature="getResponseBody(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName@22f71333]" name="getResponseBody" duration-ms="25373" started-at="2021-02-15T21:21:54Z" data-provider="ResponseBody" finished-at="2021-02-15T21:22:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[q]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[appid]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[e0115400bd2deb85547cd85f2a858c5a]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://api.openweathermap.org/data/2.5/weather]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[GB]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseBody -->
+        <test-method status="PASS" signature="getResponseBody(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName@22f71333]" name="getResponseBody" duration-ms="235" started-at="2021-02-15T21:22:20Z" data-provider="ResponseBody" finished-at="2021-02-15T21:22:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[q]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bengaluru]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[appid]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[e0115400bd2deb85547cd85f2a858c5a]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://api.openweathermap.org/data/2.5/weather]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Bengaluru]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[IN]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseBody -->
+        <test-method status="PASS" signature="getResponseBody(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName@22f71333]" name="getResponseBody" duration-ms="243" started-at="2021-02-15T21:22:20Z" data-provider="ResponseBody" finished-at="2021-02-15T21:22:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[q]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Toronto]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[appid]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[e0115400bd2deb85547cd85f2a858c5a]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://api.openweathermap.org/data/2.5/weather]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Toronto]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[CA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseBody -->
+        <test-method status="PASS" signature="getResponseBody(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName@22f71333]" name="getResponseBody" duration-ms="278" started-at="2021-02-15T21:22:20Z" data-provider="ResponseBody" finished-at="2021-02-15T21:22:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[q]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[appid]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[e0115400bd2deb85547cd85f2a858c5a]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://api.openweathermap.org/data/2.5/weather]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[US]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseBody -->
+        <test-method status="PASS" signature="getResponseBody(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName@22f71333]" name="getResponseBody" duration-ms="214" started-at="2021-02-15T21:22:20Z" data-provider="ResponseBody" finished-at="2021-02-15T21:22:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[q]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[appid]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[e0115400bd2deb85547cd85f2a858c5a]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://api.openweathermap.org/data/2.5/weather]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[AU]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseBody -->
+        <test-method status="PASS" signature="getResponseBody(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName@22f71333]" name="getResponseBody" duration-ms="206" started-at="2021-02-15T21:22:21Z" data-provider="ResponseBody" finished-at="2021-02-15T21:22:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[q]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Moscow]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[appid]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[e0115400bd2deb85547cd85f2a858c5a]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://api.openweathermap.org/data/2.5/weather]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Moscow]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[RU]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseBody -->
+        <test-method status="PASS" signature="getResponseBody(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName@22f71333]" name="getResponseBody" duration-ms="211" started-at="2021-02-15T21:22:21Z" data-provider="ResponseBody" finished-at="2021-02-15T21:22:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[q]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Beijing]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[appid]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[e0115400bd2deb85547cd85f2a858c5a]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://api.openweathermap.org/data/2.5/weather]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Beijing]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[CN]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseBody -->
+        <test-method status="PASS" signature="getResponseStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName@22f71333]" name="getResponseStatus" duration-ms="310" started-at="2021-02-15T21:22:21Z" data-provider="ResponseStatus" finished-at="2021-02-15T21:22:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[q]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[appid]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[e0115400bd2deb85547cd85f2a858c5a]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://api.openweathermap.org/data/2.5/weather]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseStatus -->
+        <test-method status="PASS" signature="getResponseStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName@22f71333]" name="getResponseStatus" duration-ms="224" started-at="2021-02-15T21:22:21Z" data-provider="ResponseStatus" finished-at="2021-02-15T21:22:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[q]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bengaluru]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[appid]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[e0115400bd2deb85547cd85f2a858c5a]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://api.openweathermap.org/data/2.5/weather]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseStatus -->
+        <test-method status="PASS" signature="getResponseStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName@22f71333]" name="getResponseStatus" duration-ms="211" started-at="2021-02-15T21:22:22Z" data-provider="ResponseStatus" finished-at="2021-02-15T21:22:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[q]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Toronto]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[appid]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[e0115400bd2deb85547cd85f2a858c5a]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://api.openweathermap.org/data/2.5/weather]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseStatus -->
+        <test-method status="PASS" signature="getResponseStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName@22f71333]" name="getResponseStatus" duration-ms="196" started-at="2021-02-15T21:22:22Z" data-provider="ResponseStatus" finished-at="2021-02-15T21:22:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[q]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[appid]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[e0115400bd2deb85547cd85f2a858c5a]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://api.openweathermap.org/data/2.5/weather]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseStatus -->
+        <test-method status="PASS" signature="getResponseStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName@22f71333]" name="getResponseStatus" duration-ms="200" started-at="2021-02-15T21:22:22Z" data-provider="ResponseStatus" finished-at="2021-02-15T21:22:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[q]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[appid]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[e0115400bd2deb85547cd85f2a858c5a]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://api.openweathermap.org/data/2.5/weather]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseStatus -->
+        <test-method status="PASS" signature="getResponseStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName@22f71333]" name="getResponseStatus" duration-ms="214" started-at="2021-02-15T21:22:22Z" data-provider="ResponseStatus" finished-at="2021-02-15T21:22:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[q]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Moscow]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[appid]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[e0115400bd2deb85547cd85f2a858c5a]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://api.openweathermap.org/data/2.5/weather]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseStatus -->
+        <test-method status="PASS" signature="getResponseStatus(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName@22f71333]" name="getResponseStatus" duration-ms="217" started-at="2021-02-15T21:22:22Z" data-provider="ResponseStatus" finished-at="2021-02-15T21:22:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[q]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Beijing]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[appid]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[e0115400bd2deb85547cd85f2a858c5a]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://api.openweathermap.org/data/2.5/weather]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseStatus -->
+        <test-method status="PASS" signature="getResponseHeaders(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName@22f71333]" name="getResponseHeaders" duration-ms="350" started-at="2021-02-15T21:22:23Z" data-provider="ResponseHeaders" finished-at="2021-02-15T21:22:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://api.openweathermap.org/data/2.5/weather?q=London&appid=e0115400bd2deb85547cd85f2a858c5a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[X-Cache-Key]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/data/2.5/weather?q=london]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseHeaders -->
+        <test-method status="PASS" signature="getResponseHeaders(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName@22f71333]" name="getResponseHeaders" duration-ms="208" started-at="2021-02-15T21:22:23Z" data-provider="ResponseHeaders" finished-at="2021-02-15T21:22:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://api.openweathermap.org/data/2.5/weather?q=Bengaluru&appid=e0115400bd2deb85547cd85f2a858c5a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[X-Cache-Key]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/data/2.5/weather?q=bengaluru]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Bengaluru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseHeaders -->
+        <test-method status="PASS" signature="getResponseHeaders(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName@22f71333]" name="getResponseHeaders" duration-ms="227" started-at="2021-02-15T21:22:23Z" data-provider="ResponseHeaders" finished-at="2021-02-15T21:22:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://api.openweathermap.org/data/2.5/weather?q=Toronto&appid=e0115400bd2deb85547cd85f2a858c5a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[X-Cache-Key]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/data/2.5/weather?q=toronto]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Toronto]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseHeaders -->
+        <test-method status="PASS" signature="getResponseHeaders(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName@22f71333]" name="getResponseHeaders" duration-ms="218" started-at="2021-02-15T21:22:23Z" data-provider="ResponseHeaders" finished-at="2021-02-15T21:22:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://api.openweathermap.org/data/2.5/weather?q=New York&appid=e0115400bd2deb85547cd85f2a858c5a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[X-Cache-Key]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/data/2.5/weather?q=new%20york]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseHeaders -->
+        <test-method status="PASS" signature="getResponseHeaders(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName@22f71333]" name="getResponseHeaders" duration-ms="220" started-at="2021-02-15T21:22:24Z" data-provider="ResponseHeaders" finished-at="2021-02-15T21:22:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://api.openweathermap.org/data/2.5/weather?q=Sydney&appid=e0115400bd2deb85547cd85f2a858c5a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[X-Cache-Key]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/data/2.5/weather?q=sydney]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseHeaders -->
+        <test-method status="PASS" signature="getResponseHeaders(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName@22f71333]" name="getResponseHeaders" duration-ms="222" started-at="2021-02-15T21:22:24Z" data-provider="ResponseHeaders" finished-at="2021-02-15T21:22:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://api.openweathermap.org/data/2.5/weather?q=Moscow&appid=e0115400bd2deb85547cd85f2a858c5a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[X-Cache-Key]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/data/2.5/weather?q=moscow]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Moscow]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseHeaders -->
+        <test-method status="PASS" signature="getResponseHeaders(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName@22f71333]" name="getResponseHeaders" duration-ms="194" started-at="2021-02-15T21:22:24Z" data-provider="ResponseHeaders" finished-at="2021-02-15T21:22:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://api.openweathermap.org/data/2.5/weather?q=Beijing&appid=e0115400bd2deb85547cd85f2a858c5a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[X-Cache-Key]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/data/2.5/weather?q=beijing]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Beijing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseHeaders -->
+        <test-method status="PASS" signature="getResponseTime(java.lang.String, java.lang.String)[pri:0, instance:com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName@22f71333]" name="getResponseTime" duration-ms="107" started-at="2021-02-15T21:22:24Z" data-provider="ResponseTime" finished-at="2021-02-15T21:22:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://api.openweathermap.org/data/2.5/weather?q=London&appid=e0115400bd2deb85547cd85f2a858c5a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseTime -->
+        <test-method status="PASS" signature="getResponseTime(java.lang.String, java.lang.String)[pri:0, instance:com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName@22f71333]" name="getResponseTime" duration-ms="106" started-at="2021-02-15T21:22:24Z" data-provider="ResponseTime" finished-at="2021-02-15T21:22:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://api.openweathermap.org/data/2.5/weather?q=Bengaluru&appid=e0115400bd2deb85547cd85f2a858c5a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bengaluru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseTime -->
+        <test-method status="PASS" signature="getResponseTime(java.lang.String, java.lang.String)[pri:0, instance:com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName@22f71333]" name="getResponseTime" duration-ms="105" started-at="2021-02-15T21:22:24Z" data-provider="ResponseTime" finished-at="2021-02-15T21:22:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://api.openweathermap.org/data/2.5/weather?q=Toronto&appid=e0115400bd2deb85547cd85f2a858c5a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Toronto]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseTime -->
+        <test-method status="PASS" signature="getResponseTime(java.lang.String, java.lang.String)[pri:0, instance:com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName@22f71333]" name="getResponseTime" duration-ms="108" started-at="2021-02-15T21:22:25Z" data-provider="ResponseTime" finished-at="2021-02-15T21:22:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://api.openweathermap.org/data/2.5/weather?q=New York&appid=e0115400bd2deb85547cd85f2a858c5a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseTime -->
+        <test-method status="PASS" signature="getResponseTime(java.lang.String, java.lang.String)[pri:0, instance:com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName@22f71333]" name="getResponseTime" duration-ms="96" started-at="2021-02-15T21:22:25Z" data-provider="ResponseTime" finished-at="2021-02-15T21:22:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://api.openweathermap.org/data/2.5/weather?q=Sydney&appid=e0115400bd2deb85547cd85f2a858c5a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseTime -->
+        <test-method status="PASS" signature="getResponseTime(java.lang.String, java.lang.String)[pri:0, instance:com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName@22f71333]" name="getResponseTime" duration-ms="101" started-at="2021-02-15T21:22:25Z" data-provider="ResponseTime" finished-at="2021-02-15T21:22:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://api.openweathermap.org/data/2.5/weather?q=Moscow&appid=e0115400bd2deb85547cd85f2a858c5a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Moscow]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseTime -->
+        <test-method status="PASS" signature="getResponseTime(java.lang.String, java.lang.String)[pri:0, instance:com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName@22f71333]" name="getResponseTime" duration-ms="101" started-at="2021-02-15T21:22:25Z" data-provider="ResponseTime" finished-at="2021-02-15T21:22:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://api.openweathermap.org/data/2.5/weather?q=Beijing&appid=e0115400bd2deb85547cd85f2a858c5a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Beijing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseTime -->
+        <test-method status="PASS" signature="getResponseContentType(java.lang.String, java.lang.String)[pri:0, instance:com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName@22f71333]" name="getResponseContentType" duration-ms="252" started-at="2021-02-15T21:22:25Z" data-provider="ResponseContentType" finished-at="2021-02-15T21:22:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://api.openweathermap.org/data/2.5/weather?q=London&appid=e0115400bd2deb85547cd85f2a858c5a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseContentType -->
+        <test-method status="PASS" signature="getResponseContentType(java.lang.String, java.lang.String)[pri:0, instance:com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName@22f71333]" name="getResponseContentType" duration-ms="208" started-at="2021-02-15T21:22:25Z" data-provider="ResponseContentType" finished-at="2021-02-15T21:22:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://api.openweathermap.org/data/2.5/weather?q=Bengaluru&appid=e0115400bd2deb85547cd85f2a858c5a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bengaluru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseContentType -->
+        <test-method status="PASS" signature="getResponseContentType(java.lang.String, java.lang.String)[pri:0, instance:com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName@22f71333]" name="getResponseContentType" duration-ms="210" started-at="2021-02-15T21:22:25Z" data-provider="ResponseContentType" finished-at="2021-02-15T21:22:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://api.openweathermap.org/data/2.5/weather?q=Toronto&appid=e0115400bd2deb85547cd85f2a858c5a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Toronto]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseContentType -->
+        <test-method status="PASS" signature="getResponseContentType(java.lang.String, java.lang.String)[pri:0, instance:com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName@22f71333]" name="getResponseContentType" duration-ms="206" started-at="2021-02-15T21:22:26Z" data-provider="ResponseContentType" finished-at="2021-02-15T21:22:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://api.openweathermap.org/data/2.5/weather?q=New York&appid=e0115400bd2deb85547cd85f2a858c5a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseContentType -->
+        <test-method status="PASS" signature="getResponseContentType(java.lang.String, java.lang.String)[pri:0, instance:com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName@22f71333]" name="getResponseContentType" duration-ms="195" started-at="2021-02-15T21:22:26Z" data-provider="ResponseContentType" finished-at="2021-02-15T21:22:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://api.openweathermap.org/data/2.5/weather?q=Sydney&appid=e0115400bd2deb85547cd85f2a858c5a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseContentType -->
+        <test-method status="PASS" signature="getResponseContentType(java.lang.String, java.lang.String)[pri:0, instance:com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName@22f71333]" name="getResponseContentType" duration-ms="214" started-at="2021-02-15T21:22:26Z" data-provider="ResponseContentType" finished-at="2021-02-15T21:22:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://api.openweathermap.org/data/2.5/weather?q=Moscow&appid=e0115400bd2deb85547cd85f2a858c5a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Moscow]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseContentType -->
+        <test-method status="PASS" signature="getResponseContentType(java.lang.String, java.lang.String)[pri:0, instance:com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName@22f71333]" name="getResponseContentType" duration-ms="186" started-at="2021-02-15T21:22:26Z" data-provider="ResponseContentType" finished-at="2021-02-15T21:22:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://api.openweathermap.org/data/2.5/weather?q=Beijing&appid=e0115400bd2deb85547cd85f2a858c5a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Beijing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseContentType -->
+      </class> <!-- com.API.CallCurrentWeatherData.CurrentWeatherDataForLocationByCityName -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
